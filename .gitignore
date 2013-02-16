@@ -1,4 +1,4 @@
-# Windows
+.# Windows
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
@@ -75,7 +75,10 @@ Session.vim
 .netrwhist
 *~
 
-# Prestashop
-tools/smarty/cache/*
-tools/smarty/compile/*
-tools/smarty_v2/compile/*
+/# Prestashop
+/tools/smarty/cache/*
+/tools/smarty/compile/*
+/tools/smarty_v2/compile/*
+/themes/prestashop/cache/*
+/cache/*
+/img/tmp/*
