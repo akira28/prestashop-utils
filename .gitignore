@@ -1,11 +1,9 @@
-# OS
+# Windows
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
-
 # Folder config file
 Desktop.ini
-
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
 .DS_Store
@@ -15,10 +13,12 @@ Icon
 # Thumbnails
 ._*
 
+# OSX
 # Files that might appear on external disk
 .Spotlight-V100
 .Trashes
 
+# Linux
 !.gitignore
 *~
 
@@ -30,7 +30,6 @@ dist/
 nbdist/
 nbactions.xml
 nb-configuration.xml
-
 *.pydevproject
 .project
 .metadata
@@ -45,18 +44,16 @@ local.properties
 .classpath
 .settings/
 .loadpath
-
 # External tool builders
 .externalToolBuilders/
-
 # Locally stored "Eclipse launch configurations"
 *.launch
-
 # CDT-specific
 .cproject
-
 # PDT-specific
 .buildpath
+# SublimeText project files
+*.sublime-workspace
 
 # VS
 /CVS/*
@@ -66,6 +63,17 @@ local.properties
 /.hg/*
 */.hg/*
 .hgignore
+.svn/
+
+# SASS
+*.sass-cache
+
+# vim
+.*.s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
 
 # Prestashop
 tools/smarty/cache/*
