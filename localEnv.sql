@@ -6,3 +6,4 @@ UPDATE `configuration` SET `value` = 0 WHERE `configuration`.`name` ='PS_JS_THEM
 UPDATE `configuration` SET `value` = 1 WHERE `configuration`.`name` ='PS_SMARTY_FORCE_COMPILE';
 UPDATE `configuration` SET `value` = 0 WHERE `configuration`.`name` ='PS_HTML_THEME_COMPRESSION';
 UPDATE `configuration` SET `value` = 0 WHERE `configuration`.`name` ='PS_JS_HTML_THEME_COMPRESSION';
+UPDATE `configuration` SET `value` = 'UA-00000000-0' WHERE `configuration`.`name` ='GANALYTICS_ID';
